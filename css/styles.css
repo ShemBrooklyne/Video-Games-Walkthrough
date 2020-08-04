@@ -13,7 +13,7 @@
 }
 
 .website{
-    color: rgb(29, 150, 5);
+    color: orange;
     font-style: italic;
 }
 
@@ -67,7 +67,6 @@ nav ul li a:hover{
 }
 
 /* navbar media  queries */
-/* media queries*/
 @media(max-width: 580px){
     .logo{
         position: fixed;
