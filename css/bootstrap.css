@@ -6609,7 +6609,7 @@ a.close.disabled {
 
 @media (prefers-reduced-motion: reduce) {
   .carousel-indicators li {
-    transition: none;
+    transition: ease-in;
   }
 }
 
