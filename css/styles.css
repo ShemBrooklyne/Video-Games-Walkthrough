@@ -4,13 +4,16 @@ body {
 }
 
 /* styling nav-bar */
+.logo{
+  font-weight: bold;
+}
 .logo:hover{
   /* background-color:rgb(97, 153, 155); */
   cursor: pointer;
 }
 
 .logo>span{
-  color:orange ; 
+  color:white ; 
 }
 
 .navnav{
@@ -29,10 +32,13 @@ li:hover{
 
 
 /* features */
+.ff{
+  font-family: "Red Rose", cursive;
+}
 .img1{
-  width: 30%;
-  height:40%;
-  border-radius: 50px;  
+  width: 35%;
+  /* height:50%; */
+  /* border-radius: 50px;   */
 }
 
 /* in the press section */
