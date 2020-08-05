@@ -3,111 +3,38 @@ body {
   overflow-x: hidden;
 }
 
-.main {
-  padding-top: 20px;
-}
 /* styling nav-bar */
-
-.logo {
-  position: fixed;
-  float: left;
-  margin: 16px 36px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.website {
-  color: orange;
-  font-style: italic;
-}
-
-nav {
-  position: fixed;
-  width: 100%;
-  background-color: black;
-}
-
-nav ul {
-  list-style: none;
-  background: rgba(0, 0, 0, 0);
-  padding: 0;
-  text-align: right;
-  margin: 0;
-  transition: 1s;
-  overflow: hidden;
-  color: #fff;
-  width: 90%;
-}
-
-nav.black ul {
-  background: #000;
-}
-
-nav ul li {
-  display: inline-block;
-  padding: 20px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 20px;
-  transition: 1s;
-}
-
-nav ul li a:hover {
-  color: orange;
-}
-
-.menu-icon {
-  width: 100%;
-  background: #000;
-  text-align: right;
-  box-sizing: border-box;
-  padding: 15px 24px;
+.logo:hover{
+  background-color:rgb(97, 153, 155);
   cursor: pointer;
-  color: #fff;
-  display: none;
 }
 
-/* navbar media  queries */
-@media (max-width: 580px) {
-  .logo {
-    position: fixed;
-    top: 0;
-    margin-top: 16px;
-  }
-
-  nav ul {
-    max-height: 0px;
-    background: #000;
-  }
-
-  nav.black ul {
-    background: #000;
-  }
-
-  .showing {
-    max-height: 20em;
-  }
-
-  nav ul li {
-    box-sizing: border-box;
-    width: 100%;
-    padding: 20px 0;
-    text-align: center;
-  }
-
-  .menu-icon {
-    display: block;
-  }
+.logo>span{
+  color:orange ; 
 }
-/* styling nav-bar */
+
+.navnav{
+  background-color: rgb(132, 165, 165);  
+}
+
+ul>li{
+  margin-right: 20px;
+}
+
+li:hover{
+  background-color: green;
+  border-radius: 50%;
+}
 
 /* SLIDER PAGE styles */
 
+
 /* features */
+.img1{
+  width: 30%;
+  height:40%;
+  border-radius: 50px;  
+}
 
 /* in the press section */
 .press {
