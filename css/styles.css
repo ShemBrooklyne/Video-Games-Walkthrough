@@ -1,103 +1,65 @@
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 /* styling nav-bar */
-/* header{
-    background-color: black;
-} */
-
 .logo{
-    position: fixed;
-    float: left;
-    margin: 16px 36px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
+  font-weight: bold;
+}
+.logo:hover{
+  background-color:rgb(97, 153, 155);
+  cursor: pointer;
 }
 
-.website{
-    color: rgb(29, 150, 5);
-    font-style: italic;
+.logo>span{
+  color:white ; 
 }
 
-nav{
-    position: fixed;
-    width: 100%;
-    background-color: black;
+.navnav{
+  background-color: rgb(132, 165, 165);  
 }
 
-nav ul{
-    list-style: none;
-    background: rgba(0, 0, 0, 0);    
-    padding:0;
-    text-align: right;
-    margin: 0;
-    transition: 1s;
-    overflow: hidden;
-    color: #fff;
-    width: 90%;
+ul>li{
+  margin-right: 20px;
 }
 
-nav.black ul{
-    background: #000;
+li:hover{
+  background-color: green;
+  border-radius: 50%;
 }
 
-nav ul li{
-    display: inline-block;
-    padding: 20px;
+/* SLIDER PAGE styles */
+
+
+/* features */
+.ff{
+  font-family: "Red Rose", cursive;
+}
+.img1{
+  width: 35%;
+  /* height:50%; */
+  /* border-radius: 50px;   */
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    transition: 1s;
+/* in the press section */
+.press1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../images/gammer.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-nav ul li a:hover{
-    color: orange;        
+.press {
+  margin-left: 3%;
+  /* padding-left: 80px; */
 }
 
-.menu-icon{
-    width: 100%;
-    background: #000;
-    text-align: right;
-    box-sizing: border-box;
-    padding: 15px 24px;
-    cursor: pointer;
-    color: #fff;
-    display: none;
-}
-
-/* navbar media  queries */
-/* media queries*/
-@media(max-width: 580px){
-    .logo{
-        position: fixed;
-        top: 0;
-        margin-top: 16px;
-    }
-
-    nav ul{
-        max-height: 0px;
-        background: #000;
-    }
-
-    nav.black ul{
-        background: #000;
-    }
-
-    .showing{
-        max-height: 20em;
-    }
-
-    nav ul li{
-        box-sizing: border-box;
-        width: 100%;
-        padding: 20px 0;
-        text-align: center;
-    }
-
-    .menu-icon{
-        display: block;
-    }    
+.pressh1,
+.card-title {
+  /* font-size: 30px; */
+  font-family: "Red Rose", cursive;
 }
 
 /* SLIDER PAGE styles */
@@ -122,10 +84,52 @@ nav ul li a:hover{
 }
 
 
-/* features */
+.games:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
 
-/* in the press section */
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
 
 /* contuct us */
 
 /* footer section */
+
+/* Extra About us page */
+.gamers-rep {
+  float: left;
+}
