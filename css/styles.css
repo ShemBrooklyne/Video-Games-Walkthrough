@@ -30,6 +30,9 @@ li:hover{
 
 
 /* features */
+.ff{
+  font-family: "Red Rose", cursive;
+}
 .img1{
   width: 30%;
   height:40%;
@@ -46,7 +49,8 @@ li:hover{
 }
 
 .press {
-  margin-left: 12%;
+  margin-left: 3%;
+  /* padding-left: 80px; */
 }
 
 .pressh1,
