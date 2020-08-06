@@ -60,6 +60,10 @@ li:hover{
   font-family: "Red Rose", cursive;
 }
 
+.pressh1 {
+  color: white;
+}
+
 /* SLIDER PAGE styles */
 .carousel-item {
     height: 100vh;
@@ -73,14 +77,19 @@ li:hover{
   
 .text-block {
     text-align: center;
-    position: absolute;
-    bottom: 100px;
+    /* position: absolute; */
+    /* bottom: 100px; */
+    margin-left: 50%;
+    margin-top: 25%;
     background-color: transparent;
-    padding-left: 100px;
+    /* padding-left: 100px; */
     width: 50%;
     float: left;
 }
 
+
+
+/* footer section */
 
 .games:hover {
   animation: shake 1s;
