@@ -60,6 +60,10 @@ ul>li{
   font-family: "Red Rose", cursive;
 }
 
+.pressh1 {
+  color: white;
+}
+
 /* SLIDER PAGE styles */
 .carousel-item {
     height: 100vh;
@@ -78,6 +82,9 @@ ul>li{
     float: center;
     margin-left: 45%;
 } 
+
+
+/* footer section */
 
 .games:hover {
   animation: shake 1s;
@@ -331,3 +338,4 @@ h1, h2, h3, h4, h5, h6 {
 .gamers-rep {
   float: left;
 }
+
