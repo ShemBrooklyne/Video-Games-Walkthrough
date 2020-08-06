@@ -4,12 +4,12 @@ body {
 }
 
 /* styling nav-bar */
+
 .logo{
   font-weight: bold;
 }
 .logo:hover{
-  /* background-color:rgb(97, 153, 155); */
-  cursor: pointer;
+  cursor: pointer;  
 }
 
 .logo>span{
@@ -23,10 +23,13 @@ body {
 ul>li{
   margin-right: 20px;
 }
-
-li:hover{
-  color: #e2e2eb;
+.nav-link{
+  color: white !important;
 }
+.nav-link:hover{
+  color: orange !important;
+}
+<<<<<<< HEAD
 
 /* SLIDER PAGE styles */
 
@@ -38,15 +41,15 @@ li:hover{
   padding: 10px;
   text-align: center;
 }
+=======
+>>>>>>> 99cd3b3c8a2fd58436f9ffb1a25440d8d2bd89c9
 
 /* features */
 .ff{
   font-family: "Red Rose", cursive;
 }
 .img1{
-  width: 35%;
-  /* height:50%; */
-  /* border-radius: 50px;   */
+  width: 35%;  
 }
 
 /* in the press section */
@@ -68,6 +71,10 @@ li:hover{
   font-family: "Red Rose", cursive;
 }
 
+.pressh1 {
+  color: white;
+}
+
 /* SLIDER PAGE styles */
 .carousel-item {
     height: 100vh;
@@ -80,15 +87,15 @@ li:hover{
 }
   
 .text-block {
-    text-align: center;
-    position: absolute;
-    bottom: 100px;
-    background-color: transparent;
-    padding-left: 100px;
-    width: 50%;
-    float: left;
-}
+    text-align: center;     
+    background-color: transparent;   
+    width: 50%;   
+    float: center;
+    margin-left: 45%;
+} 
 
+
+/* footer section */
 
 .games:hover {
   animation: shake 1s;
@@ -342,3 +349,4 @@ h1, h2, h3, h4, h5, h6 {
 .gamers-rep {
   float: left;
 }
+
