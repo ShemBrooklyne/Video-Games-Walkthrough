@@ -1,4 +1,4 @@
-// navigation icon
+//Menu toggle-button
 $(document).ready(function(){
     $(".menu-icon").on("click", function(){
         $("nav ul").toggleClass("showing");
@@ -13,4 +13,13 @@ $(window).on("scroll", function(){
     else{
         $('nav').removeClass('black');
     }
+});
+
+
+// our features
+$(document).ready(function(){
+    $('.img1').click(function(){
+        $(this).slideToggle('');
+        $(this).slideToggle();
+    });
 });
