@@ -30,6 +30,14 @@ li:hover{
 
 /* SLIDER PAGE styles */
 
+/*Gamer Knows*/
+.infotext{
+  background-color: white;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+}
 
 /* features */
 .ff{
