@@ -15,7 +15,7 @@ nav{
 .logo{
   color: white;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: bold;  
 }
  .logo>span{
    color: orange;
@@ -104,24 +104,24 @@ nav{
 
 @keyframes navLinkFade {
   from{
-      opacity: 0;
-      transform: translateX(50px);
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
   }
-  to{
-      opacity: 1;
-      transform: translateX(0px);
-  }
-}
 
-.toggle .line1{
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-.toggle .line2{
-  opacity: 0;
-}
-.toggle .line3{
-  transform: rotate(45deg) translate(-5px, -6px);
-}
+  .toggle .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  .toggle .line2{
+    opacity: 0;
+  }
+  .toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
 }
 
 /* features */
@@ -130,6 +130,20 @@ nav{
 }
 .img1{
   width: 35%;  
+}
+h6{
+  font-weight: bold;
+}
+
+#searchbtn {
+  float: right;
+  margin-top: 10%;
+  margin-right: 24%;
+}
+
+#searchbtn {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
 }
 
 /* in the press section */
